@@ -1,70 +1,33 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나의 첫 웹 노트</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #0066cc;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #666;
-            margin-top: 40px;
-        }
-    </style>
-</head>
-<body>
+📝 초등학생도 한 번에 이해하는 마크다운(Markdown) 완벽 가이드
 
-    <header>
-        <h1>나의 웹 기록 노트</h1>
-        <p>배운 내용과 생각들을 정리하는 공간입니다.</p>
-    </header>
+마크다운(Markdown)은 복잡한 문서 프로그램(한글, 워드)의 버튼을 누르지 않고, 키보드의 기본 기호만으로 예쁜 문서를 만드는 비밀 기호 약속입니다.
 
-    <main>
-        <section class="card">
-            <h2>1. 오늘 배운 내용</h2>
-            <p>HTML 기본 구조와 태그 활용법을 익혔습니다.</p>
-            <ul>
-                <li><strong>HTML:</strong> 웹페이지의 뼈대를 만드는 언어</li>
-                <li><strong>CSS:</strong> 웹페이지를 예쁘게 꾸미는 언어</li>
-                <li><strong>JavaScript:</strong> 웹페이지에 움직임을 주는 언어</li>
-            </ul>
-        </section>
+1. 마크다운이 뭔가요? (초간단 설명)
 
-        <section class="card">
-            <h2>2. 바로가기 링크</h2>
-            <p>참고하기 좋은 웹 사이트 모음:</p>
-            <a href="https://github.com" target="_blank">깃허브(GitHub) 바로가기</a>
-        </section>
-    </main>
+일반 문서: 글자를 드래그하고, 상단 메뉴에서 '굵게' 버튼을 누르고, '글자 크기 20pt'를 클릭함
 
-    <footer>
-        <p>&copy; 2026 나의 웹 노트. All rights reserved.</p>
-    </footer>
+마크다운 문서: 글자 앞뒤에 ** 만 붙이면 자동으로 굵어짐!
 
-</body>
-</html>
+장점: 키보드에서 손을 떼지 않고 빠르게 글을 쓸 수 있고, 깃허브(GitHub)나 웹 블로그에 올리면 자동으로 깔끔하게 꾸며집니다.
+
+2. 제목 쓰기 (# 스케치북 제목)
+
+책의 장, 절, 소제목처럼 글의 순서를 정할 때 사용합니다. # 기호 뒤에는 반드시 한 칸 띄어쓰기를 해야 합니다.
+
+작성하는 기호
+
+실제 화면 모양
+
+쉬운 비유 설명
+
+# 가장 큰 제목
+
+가장 큰 제목
+
+스케치북 맨 위에 쓰는 가장 큰 제목
+
+## 중간 제목
+
+중간 제목
+
+책의 1장, 2장 같은 주요 제목
